@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TERKOW.com</title>
+    <script src="https://kit.fontawesome.com/6dab878f26.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/jpg" href="images/favicon.JPG">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+
+            <li class="logo"><a href="index.html">TERKO WEBS</a></li>
+            <li class="hideonmobile"><a href="index.html">HOME</a></li>
+            <li class="hideonmobile"><a href="#">ABOUT</a></li>
+            <li class="hideonmobile"><a href="#">INFO</a></li>
+            <li class="hideonmobile"><a href="#">CONTACT</a></li>
+            <li class="menu" onclick=showsidebar()><a href="#" style="display: inline-block;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="40" height="40"
+                        fill="currentColor">
+                        <path
+                            d="M96 160C96 142.3 110.3 128 128 128L512 128C529.7 128 544 142.3 544 160C544 177.7 529.7 192 512 192L128 192C110.3 192 96 177.7 96 160zM96 320C96 302.3 110.3 288 128 288L512 288C529.7 288 544 302.3 544 320C544 337.7 529.7 352 512 352L128 352C110.3 352 96 337.7 96 320zM544 480C544 497.7 529.7 512 512 512L128 512C110.3 512 96 497.7 96 480C96 462.3 110.3 448 128 448L512 448C529.7 448 544 462.3 544 480z" />
+                    </svg>
+                </a>
+            </li>
+
+
+        </ul>
+
+        <ul class="sidebar">
+
+
+            <li class="close" onclick=hidesidebar()><a href="#" style="display: inline-block;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="40" height="40"
+                        fill="currentColor">
+                        <path
+                            d="M183.1 137.4C170.6 124.9 150.3 124.9 137.8 137.4C125.3 149.9 125.3 170.2 137.8 182.7L275.2 320L137.9 457.4C125.4 469.9 125.4 490.2 137.9 502.7C150.4 515.2 170.7 515.2 183.2 502.7L320.5 365.3L457.9 502.6C470.4 515.1 490.7 515.1 503.2 502.6C515.7 490.1 515.7 469.8 503.2 457.3L365.8 320L503.1 182.6C515.6 170.1 515.6 149.8 503.1 137.3C490.6 124.8 470.3 124.8 457.8 137.3L320.5 274.7L183.1 137.4z" />
+                    </svg>
+                </a>
+            </li>
+
+            <li id="bh"><a href="index.html">HOME</a></li>
+            <li id="bh"><a href="#">ABOUT</a></li>
+            <li id="bh"><a href="#">INFO</a></li>
+            <li id="bh"><a href="#">CONTACT</a></li>
+
+
+
+        </ul>
+
+    </nav>
+
+
+    <script>
+        function showsidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+
+        function hidesidebar() {
+
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+
+
+        }
+    </script>
+
+    <section class="titlos">
+
+        <div id="arxiki">
+
+            <h1><span id="terko">TERKO</span> <br>WEBSITE SERVICES</h1>
+
+        </div>
+
+    </section>
+
+
+
+    <div class="lista">
+
+
+        <ul>
+            <li id="emeis">ABOUT US:</li>
+            <li>
+                <p id="paragrafos1"> At TERKO, we empower businesses of all sizes to establish a strong and impactful
+                    online presence. Our mission is to help companies transform their ideas into fully developed,
+                    high-performing digital experiences.
+
+                    We specialize in designing and developing professional websites that not only represent your brand
+                    but also drive growth and engagement. Whether you’re launching a new business or looking to enhance
+                    an existing website, our team provides tailored solutions to meet your unique goals.
+
+                    In addition to website development, we offer redesign and optimization services to elevate existing
+                    platforms — improving functionality, design, and user experience to ensure your business stands out
+                    in today’s digital landscape.
+
+                    Our commitment is simple: to deliver innovative, results-driven digital solutions that help your
+                    business grow and succeed online. </p>
+
+            </li>
+
+
+
+
+
+             <img class="eikonapc" src="images/pcfoto.PNG" alt="pceikona">
+
+            <h1 class="velos"><i class="fa-solid fa-arrow-down-long fa-beat"></i></h1>
+            
+
+
+
+           
+
+            <li id="plirofories">INFO:</li>
+
+
+
+
+
+            <li>
+                <p id="paragrafos2">We believe that clear communication and transparency are key to successful
+                    partnerships. When you contact us, our team takes the time to understand your business goals,
+                    vision, and specific needs.
+
+                    Once we connect, we’ll discuss the details of your project and create a customized plan that aligns
+                    with your objectives and budget. We ensure that every client is fully informed — from design
+                    concepts and timelines to pricing and project milestones — so you always know exactly what to
+                    expect.
+
+                    After an agreement is made, our team gets to work, keeping you updated every step of the way. We
+                    value collaboration and make sure your feedback is part of the process, ensuring that the final
+                    result exceeds your expectations.
+
+                    Professionalism, integrity, and client satisfaction are at the core of everything we do. We don’t
+                    just build websites — we build lasting relationships that help your business grow.</p>
+                    
+                    <h1 class="velos2"><i class="fa-solid fa-arrow-down-long fa-beat"></i></h1>
+            </li>
+
+
+
+
+
+
+
+
+        </ul>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

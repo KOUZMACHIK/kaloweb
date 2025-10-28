@@ -1,0 +1,307 @@
+body {
+
+    background-image: url(images/newmobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    
+    background-color: rgb(112, 128, 144);
+    box-shadow: 0px 0.5px;
+
+}
+
+nav ul {
+    
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+nav li {
+    height: 50px;
+
+}
+
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    color: lightgrey;
+    display: flex;
+    align-items: center;
+
+
+}
+
+nav a:hover {
+    color: white;
+}
+
+
+nav li:first-child {
+    margin-right: auto;
+
+}
+
+.logo a {
+    color: white;
+    font-weight: 1000;
+
+}
+
+.logo a:hover {
+    color: white;
+
+}
+
+.sidebar {
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(59, 52, 52, 0.726);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px o 10px rgb(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.sidebar #bh:hover {
+    background-color: lightgrey;
+}
+
+
+
+.sidebar li {
+
+    width: 100%;
+}
+
+.sidebar a {
+
+    width: 100%;
+}
+
+.menu a {
+    color: white;
+    padding-top: 4px;
+
+}
+
+.close a {
+    padding-top: 15px;
+}
+
+
+.titlos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px
+}
+
+#arxiki {
+    text-align: center;
+    color: white;
+}
+
+#terko {
+    font-size: 3rem;
+}
+
+ul li {
+    list-style: none;
+}
+
+
+#emeis {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+}
+
+#paragrafos1 {
+    padding-top: 20px;
+    padding-right: 20px ;
+    max-width: 100;
+    text-align: justify;
+    text-align-last: left;
+
+}
+
+.lista {
+    display: flex;
+    justify-content: left;
+    float: left;
+    padding-left: 20px;
+    font-size: 2rem;
+    margin-top: 400px;
+    color: white;
+}
+
+
+#plirofories{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    font-weight: bold;
+    color: white;
+}
+
+#paragrafos2 {
+    padding-top: 20px;
+    padding-right: 20px;
+    max-width: 100%;
+    text-align: justify;
+    text-align-last: left;
+
+}
+
+.velos{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+}
+
+.velos2{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+}
+
+.eikonapc{
+    width: 50%;
+    border-radius: 3%;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:600px) {
+    .hideonmobile {
+        display: none;
+
+    }
+
+    body {
+        background-image: url(images/newmobile.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+
+    }
+
+
+
+    .lista{
+        margin-top: 250px;
+        font-size: 1rem;
+    }
+
+    #emeis{
+        display: flex;
+        justify-content: center;
+    }
+    #paragrafos1{
+        max-width: 100%;
+        padding-right: 20px;
+    }
+
+    #plirofories{
+        display: flex;
+        justify-content: center;
+    }
+
+    #paragrafos2{
+        max-width: 100%;
+        padding-right: 20px;
+    }
+
+
+
+
+    .eikonapc{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 95%;
+        height: auto;
+        margin-top: 30px;
+        border-radius: 10% ;
+        
+        
+        
+    }
+
+    
+
+
+}
+
+
+@media(max-width:400px) {
+    .sidebar {
+        width: 100%;
+    }
+}
+
+@media(min-width:601px) {
+    .menu {
+        display: none;
+    }
+}
